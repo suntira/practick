@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700;800&family=Source+Sans+3:wght@400;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    font-size: 12px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;/*равное расстояние у элементов  font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;*/
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+.main_menu{
+    background-color: #0075FF;
+    padding: 21px 0 21px 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container {
+max-width: 90%;
+margin: 0 auto;
+}
+
+.menu_main_container {
+}
+.active {
+    color: #FF0000;
+}
+
+.none_active {
+    color: white;
+}
+.none_active:hover {
+    color: #F2D60C;
+}
+.none_active:active {
+    color: #FF0000;
+}
+.main_info {
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.logo_name {
+display: flex;
+}
+
+.logo_name_left {
+padding-right: 15px;
+}
+
+.logo_name_right {
+
+}
+
+.logo_name_right_first {
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.logo_name_right_first_MO {
+    color: #F2D60C;
+
+}
+
+.logo_name_right_first_sampsonuevskoe {
+color: #F60A03;
+
+}
+
+.logo_name_right_second {
+    font-family: 'Source Sans 3';
+    font-size: 1.5rem;
+    font-weight: 400;
+    min-width: 557px;
+}
+
+.vk {
+background-image: url(/img/general/vk.svg);
+width: 80px;
+height: 80px;
+}
+a.vk:hover {
+background-image: url(/img/general/logo_hover.svg);
+margin-top: 5px;
+width: 80px;
+height: 80px;
+}
+.input_search {
+border: 4px solid #03F61B;
+box-shadow: none;
+border-radius: 10px;
+font-family: 'Montserrat Alternates';
+padding: 5px 40px 5px 20px;
+font-size: 1.5rem;
+font-weight: 700;
+color: #CFCFCF;
+min-width: 500px;
+width: 100%;
+margin-top: 30px;
+
+}
+input.input_search:focus {
+    border: 4px solid #F2D60C;
+    outline: none;
+}
+.input_submit{
+    background-image: url(/img/general/search.svg);
+    width: 25px;
+    height: 24px;
+    border: none;
+    background-color: white;
+   margin-left: -45px;
+  margin-top: 40px;
+   position: absolute;
+}
+button.input_submit:hover {
+    background-image: url(/img/general/search_before.svg);
+  }
+
+
+.window_container {
+margin-top: 120px;
+border: 4px solid #0075FF;
+border-radius: 10px;
+padding: 10px 60px 120px 60px;
+
+}
+.window_container:hover {
+    background-color: #0075FF;
+    color: white;
+}
+    
+.gos_yslugi {
+text-align: right;
+}
+
+.gos_yslugi_first {
+    display: flex;
+    justify-content: end;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    font-size: 2.25rem;
+    
+}
+.gos_yslugi_first_gos {
+color: #0075FF;
+}
+.gos_yslugi_first_gos:hover {
+    color: white;
+    }
+.gos_yslugi_first_yslugi {
+color: #FF0000;
+}
+
+
+.gos_yslugi_second {
+margin-top: 5px;
+font-family: 'Source Sans 3';
+font-size: 1.5rem;
+}
+
+.main_window_zagolovok {
+text-align: center;
+font-family: 'Montserrat Alternates';
+font-weight: 700;
+font-size: 2.25rem;
+margin-top: 30px;
+}
+
+.problem {
+    border: 4px solid #FF0000;
+    box-shadow: none;
+    font-family: 'Montserrat Alternates';
+font-weight: 700;
+font-size: 1.5rem;
+color: #FF0000;
+    background-color: white;
+    width: 499px;
+    padding: 10px 0;
+    border-radius: 10px;
+margin: 40px auto 0 auto;
+display: block;
+}
+.problem:hover{
+    background-color: #FF0000;
+    color: white;
+}
+.problem:active{
+    background-color: #BE0202;
+    border: 4px solid #BE0202;
+    color: white;
+}
+.main_p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Source Sans 3';
+font-size: 1.5rem;
+}
+.footer {
+    background-color: #0075FF;
+    margin-top: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    font-weight: 600;
+    font-family: 'Montserrat Alternates';
+    font-size: 1rem;
+    color: white;
+}
+footer h1{
+    font-weight: 600;
+    font-family: 'Montserrat Alternates';
+    font-size: 1.5rem;
+    color: white;
+}
+footer p{
+    font-family: 'Source Sans 3';
+    font-size: 0.75rem;
+    color: white;
+}
+footer a{
+    font-weight: 600;
+    font-family: 'Montserrat Alternates';
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footer_column1 {
+    
+}
+
+.footer_lofo_name {
+    display: flex;
+    
+}
+
+.footer_lofo_name_left{
+
+}
+
+.footer_lofo_name_right {
+    margin-left: 15px;
+}
+
+.footer_lofo_name_right_h1 {
+
+}
+
+.footer_lofo_name_right_p {
+margin-top: 15px;
+}
+
+.footer_column1_priem{
+margin-top: 30px;
+} 
+
+.footer_column1_a{
+margin-top: 30px;
+}
+
+.footer_column2 {
+
+}
+
+.footer_column2_address {
+
+}
+
+.footer_column2_address_meaning {
+margin-top: 15px;
+}
+
+.footer_column2_email {
+margin-top: 30px;
+}
+
+.footer_column2_email_meaning {
+margin-top: 15px;
+}
+
+footer a.vk2 {
+    background-image: url(/img/general/logo2.svg);
+    margin-top: 30px;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+}
+footer a.vk2:hover {
+    background-image: url(/img/general/logo2_hover.svg);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.footer_column3 {
+text-align: right;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.footer_column3_up {
+
+}
+
+.footer_column3_up_tel {
+
+}
+
+.footer_column3_up_tel_meaning {
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+footer h3 a.spravochnik {
+color: white;
+text-align: right;
+
+}
+footer h3 a.spravochnik:hover {
+    color: #F2D60C;
+     }
+     footer h3 a.spravochnik:active {
+        color:#FF0000;
+         }
+.footer_column3_bottom {
+
+}
+
+footer h3 a.sotrudnik {
+    color: #CFCFCF;
+}
+footer h3 a.sotrudnik:hover {
+    color: #6F6F6F;
+}
+footer h3 a.sotrudnik:active {
+    color: #FF0000;
+}
+
