@@ -1,0 +1,341 @@
+/*----------------------Общие настройки------------------*/
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url("/fonts/Noto_Sans_JP.zip");
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP';
+}
+button{
+    background: #6C4112;
+    color: #FFFF;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 4px solid #6C4112;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    font-size: 16px;
+    --main--color:#C69530;
+    --dark-br-color:#6C4112;
+}
+.container{
+ width: 90%;
+ margin: 0 auto;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.25rem;
+}
+ul, ol, a, li{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: var(--dark-br-color);
+}
+.mar_gin{
+    margin-top: 100px;
+}
+.mar_gin40{
+    margin-top: 40px;
+}
+.mar_gin20{
+    margin-top: 20px;
+}
+.mar_gin5{
+    margin-top: 5px;
+}
+.left{
+    text-align: left;
+}
+.p_main{
+font-size: 1.25rem;
+color:  var(--dark-br-color);
+}
+/*--------------------------------------------------------*/
+
+
+
+/*-------------------Шапка и Подвал-----------------*/
+/*------------Шапка----------*/
+.menu_container {
+border: 4px solid var(--main--color);
+background-color: var(--main--color);
+border-radius: 10px;
+padding: 20px 0;
+
+}
+.menu_container_content{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_container_left {
+
+}
+.menu_container_right {
+    display: flex;
+    justify-content: space-between;
+    max-width: 618px;
+    width: 100%;
+}
+.wrap_container_img img{
+    width: 400px;
+    height: 200px;
+    border-radius: 4px;
+}
+/*-----------------*/
+/*-------Подвал---------*/
+footer{
+    border: 4px solid var(--main--color);
+background-color: var(--main--color);
+border-radius: 10px;
+padding: 20px 0;
+}
+.footer_container{
+display: flex;
+
+justify-content: space-around;
+}
+.footer_clmn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*---------------------*/
+/*-----------------------------------------------*/
+
+
+
+/*----------------------Гланая страница----------------------*/
+/*-------Блок Шаги-------*/
+.wrap{
+    font-size: 1.5rem;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+.wrap_container{
+ width: 400px;
+ height: 200px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ border: 4px solid var(--main--color);
+ border-radius: 10px;
+ padding: 20px;
+}
+.wrap_container:hover{
+color: white;
+background-color: var(--main--color);
+   }
+.main_block_step_right{
+    color: var(--dark-br-color);
+text-align: center;
+}
+
+.main_block_step_left{
+    text-align: center;
+}
+/*----------------------*/
+
+/*-------Блок Главная Информация-------*/
+.main_block_info{
+    display: flex;
+    gap: 80px;
+}
+.wrap_container_2{
+    width: 150px;
+    height: 100px;
+
+}
+.main_block_info_left{
+    width: 40%;
+   
+}
+.info_img{
+    border-radius: 4px;
+
+}
+.wrap_container_2{
+    width: 286px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 4px solid var(--main--color);
+    border-radius: 10px;
+    padding: 20px; 
+}
+.main_block_step_left {
+    font-size: 1rem;
+}
+
+/*----------------------*/
+
+/*----------Блок-Поиск-----------*/
+form{
+    border: 4px solid var(--main--color);
+    border-radius: 10px;
+    background-color: var(--main--color);
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 60px;
+}
+form p{
+    color: #FFFF;
+}
+input, select{
+    margin-top: 5px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 4px solid #FFFF;
+}
+/*----------------------*/
+
+/*----------Блок Акции------------*/
+.main_block_sale_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.main_block_sale_container_block{
+    border: 4px solid var(--main--color);
+    border-radius: 10px;
+    
+    width: 600px;
+    height: 1200px;
+    padding: 40px;
+}
+.main_block_sale_container_block h4, .main_block_sale_container_block p{
+
+}
+.main_block_sale_container_block img{
+    width: 520px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+summary{
+    align-items: center;
+
+}
+/*----------------------*/
+.main_block_sale_form form{
+    padding: 60px;
+    width: 600px;
+    height: 300px;
+}
+.w400{
+    width: 400px;
+}
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+table{
+ 
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+   
+}
+.table1{
+    border: 4px solid var(--main--color);
+}
+td{
+   
+   padding: 10px ;
+}
+th{
+    font-size: 1.5rem;
+  
+}
+button a{
+    color: #C69530;
+}
+td img{
+    width: 300px;
+    height: 150px;
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+.table2{
+    border: 4px solid rgb(104, 104, 104);
+}
+.th{
+    border: 4px solid rgb(104, 104, 104);
+}
+.th1{
+    border: 4px solid rgb(0, 148, 5);
+}
+.th2{
+    border: 4px solid rgb(255, 39, 15);
+}
+.in1{
+    border: 4px solid rgb(104, 104, 104);
+    margin-left: 40px;
+}
+.bl-ch {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.b {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.b1 {
+    border: 4px solid rgb(255, 39, 15);
+}
+.b2 {
+    border: 4px solid rgb(104, 104, 104);
+}
+
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+.form1{
+    height: 500px;   
+}
+.form1 button{
+    margin-top: 25px;
+}
+.btn{
+background-color: rgb(104, 104, 104);
+border: none;
+}
+.bl-btn{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+/*----------------------------------------------------------*/

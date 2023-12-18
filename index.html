@@ -3,21 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/general.css">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <head>
+    <header>
         <div class="menu_container">
-            <div class="menu_container_left">
-                <a href="index.html">Лого</a>
+            <div class="container">
+                <div class="menu_container_content">
+                    <div class="menu_container_left">
+                        <a href="index.html">Лого</a>
+                    </div>
+                    <ul class="menu_container_right">
+                        <li><a href="">Акции</a></li>
+                        <li><a href="search.html">Поиск</a></li>
+                        <li><a href="booking.html">Управление бронированием</a></li>
+                    </ul>
             </div>
-            <ul class="menu_container_right">
-                <li><a href="html/sale.html">Акции</a></li>
-                <li><a href="html/search.html">Поиск</a></li>
-                <li><a href="html/reservation.html">Управление бронированием</a></li>
-            </ul>
         </div>
-    </head>
+    </div>
+    <div class="wrap">
+        <div class="wrap_container_img"><img src="images/home/bochka-dom.jpg"></div>
+        <div class="wrap_container_img"><img src="images/home/25c37c423c36fce6094eeab80476bbaf.jpg"></div>
+        <div class="wrap_container_img"><img src="images/home/259878452.jpg"></div>
+    </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main_content">
+                <div class="main_block_step mar_gin">
+                    <h2>Чтобы воспользоваться услугами компании необходимо: </h2>
+                    <div class="wrap">
+                        <div class="wrap_container">
+                            <p class="main_block_step_right"> Шаг 1</p>
+                            <p class="main_block_step_left"> Выбрать даты и место самоизоляции;</p>
+                        </div>
+                        <div class="wrap_container">
+                            <p class="main_block_step_right"> Шаг 2</p>
+                            <p class="main_block_step_left"> Выбрать количество проживающих;</p>
+                        </div>
+                        <div class="wrap_container">
+                            <p class="main_block_step_right"> Шаг 3</p>
+                            <p class="main_block_step_left">Выбрать желаемый кемпинг, соответствующий условиям выше;</p>
+                        </div>
+                        <div class="wrap_container">
+                            <p class="main_block_step_right"> Шаг 4</p>
+                            <p class="main_block_step_left"> Выбрать понравившийся дом-бочку на территории кемпинга;</p>
+                        </div>
+                        <div class="wrap_container">
+                            <p class="main_block_step_right"> Шаг 5</p>
+                            <p class="main_block_step_left"> Определить перечень дополнительных услуг;</p>
+                        </div>
+                        <div class="wrap_container">
+                            <p class="main_block_step_right"> Шаг 6</p>
+                            <p class="main_block_step_left"> Оформить заказ.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_block_info mar_gin">
+                    <div class="main_block_info_right ">
+                        <div class="main_block_info_right_up">
+                            <h1> Комфортно для Вас – безопасно для 
+                                общества.</h1>
+                            <h3 class="mar_gin40" > Главная цель компании – сделать дни вынужденной самоизоляции максимально комфортными и безопасными для клиентов.</h3>
+                        </div>
+                        <div class="main_block_info_right_down ">
+                            <h2 class="left mar_gin40">Отзывы клиентов:</h2>
+                            <div class="wrap">
+                                <div class="wrap_container_2">
+                                    <p class="main_block_step_right">Игорь</p>
+                                    <p class="main_block_step_left"> Спасибо большое! Изоляция прошла с пользой! Побольше бы таких проектов!
+                                        Успехов вам!</p>
+                                </div>
+                                <div class="wrap_container_2">
+                                    <p class="main_block_step_right"> Елена </p>
+                                    <p class="main_block_step_left"> Понравилось оформление домов-бочек и спектр услуг! Для семьи из 4-х человек все условия, особенно хотелось отметить качество медицинских услуг! 
+                                        Однозначно рекомендую!</p>
+                                </div>
+                                <div class="wrap_container_2">
+                                    <p class="main_block_step_right"> Петр Иванович </p>
+                                    <p class="main_block_step_left"> Всё очень понравилось. 
+                                        Изолировались вдвоем с супругой, порадовали цены (особенно семейные акции). Условия проживания на высоком уровне.</p>
+                                </div>
+                                <div class="wrap_container_2">
+                                    <p class="main_block_step_right"> Олег</p>
+                                    <p class="main_block_step_left"> Решил совместить приятное с полезным. Отметили в изоляции очередную годовщину с супругой, качество услуг отличное и главное вокруг никого))) Рекомендую!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_block_info_left">
+                        <img src="images/home/bf5310392944dcd613e37cf58ebe9588.jpg" class="info_img">
+                    </div>
+                </div>
+                <div class="main_block_inputsearch mar_gin">
+                    <h2>Поиск</h2>
+                    <form action=" search.html" class="mar_gin40">
+                        <div class="input_1">
+                            <p>Выбор региона</p>
+                            <select id="regin" name="regin">
+                                <option value="1">Омская область</option>
+                                <option value="2">Красноярский край</option>
+                                <option value="3">Алтайский край</option>
+                              </select>
+                        </div>
+                        <div class="input_2">
+                            <p>Количество человек</p>
+                        <select id="count" name="count">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <div class="input_2"> 
+                            <p>Дата Заселения</p>
+                            <input type="date" placeholder="Дата Заселения">
+                        </div>
+                        <div class="input_3"> 
+                            <p>Дата выселения</p>
+                        <input type="date" placeholder="Дата выселения">
+                        </div>
+                        <button>Поиск</button>
+                    </form>
+                
+                </div>
+                <div class="main_block_sale mar_gin">
+                    <h2>Акции</h2>
+                    <div class="main_block_sale_container mar_gin40">
+                        <div class="main_block_sale_container_block">
+                            <h4>Скидка до 60%. 2 или 3 дня  проживания в доме-бочке (до 5 человек) в кемпинге «Дача Поддубного»</h4>
+                            <img src="images/promotions/promotion1.jpg">
+                            <p class="mar_gin20">
+                                Устали от городского шума, хотите провести время вынужденной изоляции на свежем воздухе и отрешиться от повседневных хлопот? Приезжайте на базу отдыха «Дача Поддубного». Здесь вас ждут комфортные и очень уютные домики-бочки, великолепные природные пейзажи и тишина, нарушаемая лишь пением птиц и мерным шумом крон величественных деревьев.
+                                </p>
+                                <details open>
+                                    <summary class="mar_gin20">Узнать больше</summary>
+                                    <p class="p_main mar_gin20" >Отдых 2 дня и 1 ночь:</p>
+                                        <p class="mar_gin5">— Скидка 53% на 2 дня и 1 ночь проживания в домике для 2 человек (470 руб. вместо 1000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 54% на 2 дня и 1 ночь проживания в домике для 3 человек (920 руб. вместо 2000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 55% на 2 дня и 1 ночь проживания в домике для 4 человек (1350 руб. вместо 3000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 56% на 2 дня и 1 ночь проживания в домике для 5 человек (1760 руб. вместо 4000 руб.)</p>
+                                        
+                                        <p class="p_main mar_gin20">Отдых 3 дня и 2 ночи:</p>
+                                       <p class="mar_gin5">— Скидка 57% на 3 дня и 2 ночи проживания в домике для 2 человек (860 руб. вместо 2000 руб.)</p> 
+                                        <p class="mar_gin5">— Скидка 58% на 3 дня и 2 ночи проживания в домике для 3 человек (1680 руб. вместо 4000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 59% на 3 дня и 2 ночи проживания в домике для 4 человек (2460 руб. вместо 6000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 60% на 3 дня и 2 ночи проживания в домике для 5 человек (3200 руб. вместо 8000 руб.)</p>
+                                        
+                                        <p class="p_main mar_gin20">Купон действует в будние и выходные дни при наличии свободных мест</p>
+                                        <button class="mar_gin40">Подробнее</button>
+                                  </details>
+                                  
+                        </div>
+                        <div class="main_block_sale_container_block">
+                            <h4>Скидка до 51%. Уютное место самоизоляции для семьи в обустроенном кемпинге «Лесная поляна»</h4>
+                            <img src="images/promotions/promotion2.jpg">
+                            <p class="mar_gin20">
+                                Кемпинг «Лесная поляна» расположен в живописной загородной местности на берегу чистого озера. В этом месте можно провести время самоизоляции в стороне от городской суеты с пользой для здоровья.
+Кемпинг располагает благоустроенной охраняемой территорией, обработанной специальными средствами от клещей. В распоряжении изолирующихся находятся столы, скамейки, зона для костра, санитарный узел и дровяник. Для маленьких гостей обустроены песочница с игрушками, качели и детский бассейн. 
+Работают пункты проката велосипедов и рыболовных снастей.
+                                </p>
+                                <details open>
+                                    <summary class="mar_gin20">Узнать больше</summary>
+                                    <p class="p_main mar_gin20" >Купон действует на следующие виды услуг:</p>
+                                        <p class="mar_gin5">— Скидка 51% для семьи до 3 человек на 14 суток 1 место для машины (4900 руб. вместо 10000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 51% для семьи до 4 человек на 14 суток и 2 места для машин (9800 руб. вместо 20000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 50% для семьи до 5 человек на 14 суток и 3 места для машин (15000 руб. вместо 30000 руб.)</p>
+                                        
+                                        <p class="p_main mar_gin20">Преимущества изоляции у нас:</p>
+                                       <p class="mar_gin5">— безопасность (территория кемпинга является частной и охраняется);</p> 
+                                        <p class="mar_gin5">— мало людей (площадь — 200 кв. м);</p>
+                                        <p class="mar_gin5">— защита от насекомых (территория кемпинга обработана от клещей);</p>
+                                        <p class="mar_gin5">— обустроенный лагерь (беседки, баня, мангал, места для спортивных и детских игр).</p>
+                                        
+                                        <p class="p_main mar_gin20">Обязательна предварительная запись по телефону.</p>
+                                        <p class=" mar_gin20">Для бронирования существуют общие условия — предоплата 50% или сообщить данные купона (купон будет активирован только в день приезда).
+                                            Срок действия купонов: с 19.06.2020 до 31.08.2021 (включительно).</p>
+                                            <button class="mar_gin40">Подробнее</button>
+                                  </details>
+                                  
+                        </div>
+                        <div class="main_block_sale_container_block">
+                            <h4>Скидка до 50%. Изолируйся на месяц в обустроенном кемпинге «Бочки Диогена» со своей второй половинкой</h4>
+                            <img src="images/promotions/promotion3.jpg">
+                            <p class="mar_gin20">
+                                Уютные небольшие домики-бочки для желающих провести самоизоляцию отдыха вдвоем.
+                                В домике двуспальная кровать, телевизор, барный холодильник, стол, два стула, душевая кабина, горячая и холодная вода.
+                                </p>
+                                <details open>
+                                    <summary class="mar_gin20">Узнать больше</summary>
+                                    <p class="p_main mar_gin20" >Купон действует на следующие виды услуг:</p>
+                                        <p class="mar_gin5">— Скидка 25% для 1 человека на месяц и 1 место для машины (22500 руб. вместо 30000 руб.)</p>
+                                        <p class="mar_gin5">— Скидка 50% для семьи из 2 человек на месяц и 1 место для машины (15000 руб. вместо 30000 руб.)</p>
+                        
+                                        <p class="p_main mar_gin20">
+                                            Обязательна предварительная запись по телефону.</p>
+                                        <p class=" mar_gin20">
+                                            Для бронирования существуют общие условия — предоплата 50% или сообщить данные купона (купон будет активирован только в день приезда).
+                                            Срок действия купонов: с 19.10.2020 до 20.12.2021 (включительно).
+                                            .</p>
+                                           <button class="mar_gin40">Подробнее</button>
+                                  </details>
+                                  
+                        </div>
+                    </div>
+                
+
+                    </div>
+                    <div class="main_block_sale_form mar_gin">
+                        <h2>Подписка на закрытые Акции</h2>
+                        <form action="search.html" class="mar_gin40">
+                            <input class="w400"type="email" placeholder="Ваша почта">
+                            <button class="w400">Поиск</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mar_gin">
+        <div class="container footer_container">
+<div class="footer_clmn">
+    <a  href="index.html">Главная</a>
+    <a>Телефон “8 (800) 100-10-10</a>
+</div>
+<div class="footer_clmn">
+    <a href="login.html">Вход</a>
+    <a href="singup.html">Регистрация</a>
+</div>
+<div class="footer_clmn">
+    <a href="contact.html">Контакты</a>
+    <a href="news.html">Новости</a>
+</div>
+<div class="footer_clmn">
+    <a href="return.html">Возврат </a>
+    <a href="feetdback.html">Обратная связь</a>
+</div>
+        </div>
+    </footer>
 </body>
 </html>
